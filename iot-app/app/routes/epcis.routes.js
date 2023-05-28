@@ -5,6 +5,7 @@ module.exports = app => {
 
   router.get('/capture', controller.findAllCaptures);
   router.post('/capture', controller.createCapture);
-
+  router.delete('/capture',controller.deleteAllEpcis)
+  // router.put('/capture/:id', controller.addEventToList);
   app.use("/api", router);
 };

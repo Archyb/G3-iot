@@ -44,6 +44,10 @@ module.exports = mongoose => {
                         type: String,
                         required: true
                     },
+                    bizLocation: {
+                        type:String,
+                        required: true
+                    },
                     disposition: {
                         type: String,
                         required: true
@@ -103,12 +107,6 @@ module.exports = mongoose => {
                                 required: true
                             }
                         }],
-                    extensions: [
-                        {
-                            name: {type: String},
-                            specs: {type: String}
-                        }
-                    ]
                 }
             ]
         },

@@ -73,5 +73,5 @@ Object référence : https://ref.gs1.org/docs/epcis/examples/example_9.6.1-objec
 
 
 
-https://github.com/Archyb/G3-iot/assets/121549285/f63a903d-97bb-4d61-8306-137f707a8b6a
+https://app.getpostman.com/join-team?invite_code=beee8acd5141bf1080133bdac8271efe&target_code=c7283d7c5b57f2c8a2c813a77cce624e
 

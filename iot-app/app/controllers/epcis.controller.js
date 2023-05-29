@@ -12,25 +12,25 @@ exports.createCapture = [
     // Valider readPoint
     body('epcisBody.eventList[0].readPoint.id')
         .matches(/^urn:epc:id:sgln:\d{7}\.\d{5}\.\d{4}$/)
-        .withMessage('Invalid readPoint ID format!'),
+        .withMessage('Invalid readPoint ID format\n value must follow this regex "urn:epc:id:sgln:0000001.00001.0000"!'),
 
     // Valider epcList
     body('epcisBody.eventList[0].epcList.*')
         .matches(/^urn:epc:id:sgtin:\d{7}\.\d{6}\.\d{3}$/)
-        .withMessage('Invalid EPC format in epcList!'),
+        .withMessage('Invalid EPC format in epcList \n value must follow this regex "urn:epc:id:sgtin:0000001.000000.000"!'),
 
     body('epcisBody.eventList[0].bizStep')
         .matches(/^urn:epcglobal:cbv:bizstep:(shipping|receiving)$/)
-        .withMessage('Invalid bizStep format in Bizstep!'),
+        .withMessage('Invalid bizStep format in Bizstep\n value must be "shipping" or "receiving"!'),
 
     body('epcisBody.eventList[0].bizLocation.id')
         .matches(/^urn:epc:id:sgln:\d{7}\.\d{5}\.\d{1}$/)
-        .withMessage('Invalid bizLocation ID format!'),
+        .withMessage('Invalid bizLocation ID format\n value must follow this regex "urn:epc:id:sgln:0000001.00001.0"! '),
 
 
     body('epcisBody.eventList[0].disposition')
         .matches(/^urn:epcglobal:cbv:bizstep:in_transit/)
-        .withMessage('Invalid bizStep format in disposition!'),
+        .withMessage('Invalid bizStep format in disposition\n value must be "in_transit"!'),
 
     // Valider action
     body('epcisBody.eventList[0].action')
@@ -40,12 +40,12 @@ exports.createCapture = [
     // Valider sourceList
     body('epcisBody.eventList[0].sourceList.*.source')
         .matches(/^urn:epc:id:sgln:\d{7}\.\d{5}\.\d{4}$/)
-        .withMessage('Invalid sourceList ID format!'),
+        .withMessage('Invalid sourceList ID format\n value must follow this regex "urn:epc:id:sgln:0000001.00001.0000"!'),
 
     // Valider destinationList
     body('epcisBody.eventList[0].destinationList.*.destination')
         .matches(/^urn:epc:id:sgln:\d{7}\.\d{5}\.\d{4}$/)
-        .withMessage('Invalid destinationList ID format!'),
+        .withMessage('Invalid destinationList ID format\n value must follow this regex "urn:epc:id:sgln:0000001.00001.0000"!'),
 
 
     (req, res) => {

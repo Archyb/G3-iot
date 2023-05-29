@@ -68,7 +68,8 @@ Object référence : https://ref.gs1.org/docs/epcis/examples/example_9.6.1-objec
 
 ![Screenshot 2023-05-27 at 12 08 16](https://github.com/Archyb/G3-iot/assets/121549285/44b66842-873a-402f-9e9d-85cf69f553d1)
 
-#### Explication de l'event ObjectEvent selon les standards EPCIS GS1
+
+### Explication de l'event ObjectEvent selon les standards EPCIS GS1
 
 
 1. eventTime : Il spécifie la date et l'heure de l'événement, ce qui est conforme aux exigences du standard EPCIS.

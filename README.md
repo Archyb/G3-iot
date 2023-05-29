@@ -57,7 +57,8 @@ Object référence : https://ref.gs1.org/docs/epcis/examples/example_9.6.1-objec
 ### Project achitecture
 
 
-![Screenshot 2023-05-27 at 12 08 10](https://github.com/Archyb/G3-iot/assets/121549285/ea5410f8-e57e-4ef3-b6da-7f404373d962)
+
+![Screenshot 2023-05-27 at 11 47 17](https://github.com/Archyb/G3-iot/assets/121549285/cc738843-c166-4a00-ac8c-d9371d8781da)
 
 
 
@@ -65,7 +66,8 @@ Object référence : https://ref.gs1.org/docs/epcis/examples/example_9.6.1-objec
 ### Gestion des Data
 
 
-![Screenshot 2023-05-27 at 12 08 16](https://github.com/Archyb/G3-iot/assets/121549285/a8f71b6d-6d17-425e-9087-7e9012708f75)
+![Screenshot 2023-05-27 at 12 08 16](https://github.com/Archyb/G3-iot/assets/121549285/44b66842-873a-402f-9e9d-85cf69f553d1)
+
 
 
 

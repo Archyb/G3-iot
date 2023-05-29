@@ -88,6 +88,7 @@ Object référence : https://ref.gs1.org/docs/epcis/examples/example_9.6.1-objec
 8. bizLocation : Il contient l'URN d'un lieu commercial, qui identifie l'endroit où l'événement a eu lieu. L'URN utilisé suit le format approprié pour le lieu commercial.
 
 9. sourceList et destinationList : Ces attributs fournissent des informations sur la source (ferme) et la destination (boucherie) respectivement. Les attributs "sourceURN" et "destinationURN" utilisent des URN conformes aux spécifications GS1 pour identifier de manière unique ces entités.**
+```
 {
   "eventTime": "2023-05-28T10:00:00Z",
   "eventTimeZoneOffset": "+02:00",
@@ -110,6 +111,7 @@ Object référence : https://ref.gs1.org/docs/epcis/examples/example_9.6.1-objec
     }
   ]
 }
+```
 
 
 ### Tests et Validations

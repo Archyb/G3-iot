@@ -2,7 +2,7 @@
 
 - [x] Créer un model basée sur la norme EPCIS
 - [x] Valider les datas(uri, actions)
-- [x] Créer un Endpoint /capture ou chaque nouvel evenement lié a un document EPCIS s'ajout a l event list
+- [x] Créer un Endpoint /capture ou chaque nouvel evenement lié a un document EPCIS s'ajoute a l event list
 
 # Project Configuration
 

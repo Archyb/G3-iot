@@ -117,7 +117,7 @@ Object référence : https://ref.gs1.org/docs/epcis/examples/example_9.6.1-objec
 
 # Tests et Validations
 
-Utiliser l'environnment Postman :
+Utiliser l'environnment Postman desktop en vous basant sur les requêtes suivante :
 
 https://app.getpostman.com/join-team?invite_code=beee8acd5141bf1080133bdac8271efe&target_code=c7283d7c5b57f2c8a2c813a77cce624e
 

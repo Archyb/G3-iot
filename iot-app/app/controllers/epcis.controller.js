@@ -20,7 +20,7 @@ exports.createCapture = [
         .withMessage('Invalid EPC format in epcList \n value must follow this regex "urn:epc:id:sgtin:0000001.000000.000"!'),
 
     body('epcisBody.eventList[0].bizStep')
-        .matches(/^urn:epcglobal:cbv:bizstep:(shipping|receiving)$/)
+        .matches(/^urn:epcglobal:cbv:bizstep:(shipping|receiving|commissioning)$/)
         .withMessage('Invalid bizStep format in Bizstep\n value must be "shipping" or "receiving"!'),
 
     body('epcisBody.eventList[0].bizLocation.id')

@@ -3,33 +3,35 @@ Le backend de Track and Trace est conçu pour suivre et tracer les événements 
 
 # Technologies utilisées :
 
-Langage de programmation : Node.js
-Base de données : MongoDB
-Conteneurisation : Docker
-Outils de test : Postman
-Validation des données : utilisation de validateurs pour vérifier les attributs des objets d'événement
-Fonctionnalités clés :
-Le backend de Track and Trace met en œuvre les fonctionnalités suivantes :
+1. Langage de programmation : Node.js
+2. Base de données : MongoDB
+3. Conteneurisation : Docker
+4. Outils de test : Postman
+5. Validation des données : utilisation de validateurs pour vérifier les attributs des objets d'événement
+6. Fonctionnalités clés :
+7. Le backend de Track and Trace met en œuvre les fonctionnalités suivantes :
 
 # Gestion des événements :
 
-Ajout d'événements (Add) : Permet d'ajouter un nouvel événement lié à un produit de viande dans le système.
-Observation d'événements (Observe) : Permet d'observer un événement existant dans le système.
-Réception d'événements (Receiving) : Permet d'enregistrer la réception d'un produit de viande dans le système.
-Stockage des événements :
+1. Ajout d'événements (Add) : Permet d'ajouter un nouvel événement lié à un produit de viande dans le système.
+2. Observation d'événements (Observe) : Permet d'observer un événement existant dans le système.
+3. Réception d'événements (Receiving) : Permet d'enregistrer la réception d'un produit de viande dans le système.
+
+# Stockage des événements :
 
 Utilisation d'une base de données MongoDB pour stocker les événements de manière persistante.
 Chaque événement est enregistré avec tous ses attributs pertinents, tels que ReadPoint, BizStep, etc.
-Validation des données :
+
+# Validation des données :
 
 Utilisation de validateurs pour vérifier la conformité des attributs des objets d'événement aux normes définies.
 Les validateurs garantissent que les données entrantes sont cohérentes et valides.
 Interface de test :
 Les requêtes POST et GET peuvent être testées à l'aide de Postman pour valider le bon fonctionnement du système.
-Déploiement :
+
+# Déploiement :
+
 Le code du backend de Track and Trace est développé en utilisant Node.js et est déployé sur des conteneurs Docker pour faciliter la portabilité et la gestion des dépendances.
-
-
 
 
 # Objectifs:

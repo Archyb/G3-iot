@@ -1,3 +1,37 @@
+#Architecture générale :
+Le backend de Track and Trace est conçu pour suivre et tracer les événements liés aux produits de viande tout au long de la chaîne logistique. Le système repose sur les principes de l'EPCIS (Electronic Product Code Information Services) définis par GS1.
+
+#Technologies utilisées :
+
+Langage de programmation : Node.js
+Base de données : MongoDB
+Conteneurisation : Docker
+Outils de test : Postman
+Validation des données : utilisation de validateurs pour vérifier les attributs des objets d'événement
+Fonctionnalités clés :
+Le backend de Track and Trace met en œuvre les fonctionnalités suivantes :
+
+#Gestion des événements :
+
+Ajout d'événements (Add) : Permet d'ajouter un nouvel événement lié à un produit de viande dans le système.
+Observation d'événements (Observe) : Permet d'observer un événement existant dans le système.
+Réception d'événements (Receiving) : Permet d'enregistrer la réception d'un produit de viande dans le système.
+Stockage des événements :
+
+Utilisation d'une base de données MongoDB pour stocker les événements de manière persistante.
+Chaque événement est enregistré avec tous ses attributs pertinents, tels que ReadPoint, BizStep, etc.
+Validation des données :
+
+Utilisation de validateurs pour vérifier la conformité des attributs des objets d'événement aux normes définies.
+Les validateurs garantissent que les données entrantes sont cohérentes et valides.
+Interface de test :
+Les requêtes POST et GET peuvent être testées à l'aide de Postman pour valider le bon fonctionnement du système.
+Déploiement :
+Le code du backend de Track and Trace est développé en utilisant Node.js et est déployé sur des conteneurs Docker pour faciliter la portabilité et la gestion des dépendances.
+
+
+
+
 # Objectifs:
 
 - [x] Créer un model basée sur la norme EPCIS

@@ -72,18 +72,6 @@ module.exports = mongoose => {
                             required: true
                         }
                     },
-                    bizTransactionList: [
-                        {
-                            type: {
-                                type: String,
-                                required: true
-                            },
-                            bizTransaction: {
-                                type: String,
-                                required: true
-                            }
-                        }
-                    ],
                     sourceList: [
                         {
                             type: {
